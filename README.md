@@ -17,6 +17,8 @@ A game based on riding on a motor bike, where the goal is to get through every o
 
 ## Wireframe
 
+![](https://i.imgur.com/6bDQ1P7.png)
+
 ## Backend
 No backend is needed for this project
 
