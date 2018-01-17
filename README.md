@@ -8,12 +8,18 @@ A game based on riding on a motor bike, where the goal is to get through every o
     * Spacebar to start the game
     * P to pause the game during gameplay
 * Background changes randomly every few levels (or a specific time period)
-* A modal that pops up for instructions
+* Links to github repo, LinkedIn and portfolio website
 * Obstacles consisting of shapes that the user will need to get over
 * Bike is able to lean left and right depending on whether the user presses the left or right arroy key
+* A modal that pops up for instructions
 * A production README
 
 ## Technologies, Libraries, APIs
+* Canvas to draw obstacles and ground on the screen
+* Crafty.JS to work with Canvas and for collision detection on the obstacles
+* Matter.js for the physics engine to have gravity in the game
+* Vanilla JS for game logic and rendering instruction modal
+* OR Melon.js for physics and collision detection
 
 ## Wireframe
 
@@ -23,3 +29,10 @@ A game based on riding on a motor bike, where the goal is to get through every o
 No backend is needed for this project
 
 ## Implementation Timeline
+Day 1:
+* Setup up environment
+* Get accustomed to libraries
+* Have an overall structure organized 
+
+Day 2:
+* 
