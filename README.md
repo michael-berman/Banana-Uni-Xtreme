@@ -16,10 +16,7 @@ A game based on riding on a motor bike, where the goal is to get through every o
 
 ## Technologies, Libraries, APIs
 * Canvas to draw obstacles and ground on the screen
-* Crafty.JS to work with Canvas and for collision detection on the obstacles
-* Matter.js for the physics engine to have gravity in the game
-* Vanilla JS for game logic and rendering instruction modal
-* OR Melon.js for physics and collision detection
+* Vanilla JS for game logic, physics, collision detection and rendering instruction modal
 
 ## Wireframe
 
