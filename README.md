@@ -35,4 +35,14 @@ Day 1:
 * Have an overall structure organized 
 
 Day 2:
-* 
+* Create background and figure out how to render each object on the game window
+* Have a module for the bike, and have it go forward and back
+* Design logic for gravity
+
+Day 3:
+* Render obstacles on the game window
+* Design collision detection for a bounce off effect
+
+Day 4:
+* Create instructions modal
+* Style nice looking format
