@@ -13,3 +13,11 @@ A game based on riding on a motor bike, where the goal is to get through every o
 * Bike is able to lean left and right depending on whether the user presses the left or right arroy key
 * A production README
 
+## Technologies, Libraries, APIs
+
+## Wireframe
+
+## Backend
+No backend is needed for this project
+
+## Implementation Timeline
