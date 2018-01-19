@@ -1,5 +1,5 @@
 module.exports = {
-  entry: "./lib/dirt_bike_xtreme.js",
+  entry: "./lib/banana_uni_xtreme.js",
   output: {
   	filename: "./lib/bundle.js"
   },

@@ -1,4 +1,4 @@
-# Dirt-Bike-Xtreme
+# Banana-Uni-Xtreme
 
 ## MVP & Features
 A game based on riding on a motor bike, where the goal is to get through every obstacle as fast as possible.
