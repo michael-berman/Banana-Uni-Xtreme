@@ -23,8 +23,6 @@ main {
 }
 
 canvas {
-  width: 800px;
-  height: 500px;
   border:1px solid #000000;
   background: url(https://i.imgur.com/lbwTST5.jpg);
   background-repeat: no-repeat;
