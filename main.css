@@ -14,7 +14,10 @@ header {
   font-size: 70px;
   margin: 0 auto;
   margin-top: 80px;
-  font-family: 'Walter Turncoat', cursive;
+  /* font-family: 'Walter Turncoat', cursive; */
+  font-family: 'Bungee Inline', cursive;
+  /* font-family: 'Freckle Face', cursive; */
+
 }
 
 main {
@@ -47,4 +50,29 @@ canvas {
   color: white;
   width: 600px;
   z-index: 2;
+  font-family: 'Freckle Face', cursive;
+  font-size: 50px;
+  /* font-family: 'Bungee Inline', cursive; */
+}
+
+.game-scoreboard-gameover {
+  bottom: 145px;
+}
+
+.game-over-container {
+  display: flex;
+  width: 50%;
+  margin: 0 auto;
+  position: absolute;
+  left: 25%;
+  bottom: 58%;
+  text-align: center;
+}
+
+#game-over {
+  margin: 0 auto;
+  font-size: 50px;
+  color: white;
+  font-family: 'Freckle Face', cursive;
+  /* font-family: 'Bungee Inline', cursive; */
 }
