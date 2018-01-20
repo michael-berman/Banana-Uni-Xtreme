@@ -14,9 +14,7 @@ header {
   font-size: 70px;
   margin: 0 auto;
   margin-top: 80px;
-  /* font-family: 'Walter Turncoat', cursive; */
   font-family: 'Bungee Inline', cursive;
-  /* font-family: 'Freckle Face', cursive; */
 
 }
 
@@ -51,27 +49,28 @@ canvas {
   z-index: 2;
   font-family: 'Freckle Face', cursive;
   font-size: 50px;
-  /* font-family: 'Bungee Inline', cursive; */
-}
-
-.game-scoreboard-gameover {
-  bottom: 145px;
 }
 
 .game-over-container {
-  display: flex;
-  width: 45%;
+  width: 40%;
+  z-index: -1;
   margin: 0 auto;
   position: absolute;
-  left: 27%;
-  top: 250px;
+  left: 433px;
+  top: 268px;
   text-align: center;
+  height: 330px;
+  border-radius: 15px;
+  background-color: #F5F5F5;
+  box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(0, 0, 0, 0.3);
 }
 
 #game-over {
   margin: 0 auto;
   font-size: 50px;
-  color: white;
+  color: red;
   font-family: 'Freckle Face', cursive;
-  /* font-family: 'Bungee Inline', cursive; */
+  padding: 50px;
+  margin-top: 15px;
 }
