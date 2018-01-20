@@ -61,11 +61,11 @@ canvas {
 
 .game-over-container {
   display: flex;
-  width: 50%;
+  width: 45%;
   margin: 0 auto;
   position: absolute;
-  left: 25%;
-  bottom: 58%;
+  left: 27%;
+  top: 250px;
   text-align: center;
 }
 
