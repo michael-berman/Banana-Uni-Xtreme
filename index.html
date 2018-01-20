@@ -5,18 +5,27 @@
   </head>
 
   <body>
+
     <header>
-      <h1>Banana Uni Xtreme</h1>
+      <h1 class="game-header">Banana Uni Xtreme</h1>
     </header>
+
     <main>
-      <canvas id="game-canvas" width="700" height="500">
-        <div class="stitches"></div>
-      </canvas>
+
+      <div class="canvas-container">
+        <canvas id="game-canvas" width="700" height="500">
+        </canvas>
+      </div>
+
+      <div class="game-scoreboard">
+        <h1 id="game-score">Right arrow key to accelerate, left arrow key to decelerate and up arrow key to jump</h1>
+      </div>
 
       <script type="application/javascript" src="lib/bundle.js"></script>
       <link rel="stylesheet"
       type="text/css"
       href="main.css" />
+
     </main>
   </body>
 </html>
