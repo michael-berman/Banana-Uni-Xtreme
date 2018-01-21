@@ -31,10 +31,11 @@ main {
 .info-container {
   background-color: #856320;
   box-shadow: inset 0 0 10px #000000;
-  height: 295px;
+  height: 395px;
   width: 200px;
   text-align: center;
   align-self: center;
+  margin-top: 104px;
 }
 
 #control-header {
