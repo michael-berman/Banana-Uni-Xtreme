@@ -35,6 +35,18 @@ canvas {
   box-shadow: inset 0 0 10px #000000;
 }
 
+.game-start-container {
+  z-index: 2;
+  position: absolute;
+  top: 593px;
+  left: 384px;
+}
+
+#game-start {
+  color: white;
+  font-size: 67px;
+}
+
 .game-scoreboard {
   position: relative;
   bottom: 80px;
