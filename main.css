@@ -24,14 +24,15 @@ main {
 
 .main-container {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
+  margin-right: 85px;
 }
 
 .info-container {
   background-color: #856320;
   box-shadow: inset 0 0 10px #000000;
-  height: 245px;
-  width: 300px;
+  height: 295px;
+  width: 200px;
   text-align: center;
   align-self: center;
 }
@@ -62,6 +63,7 @@ canvas {
   background-repeat: no-repeat;
   background-size: cover;
   box-shadow: inset 0 0 10px #000000;
+  margin: 0 45px;
 }
 
 .link-container {
@@ -85,7 +87,7 @@ canvas {
   z-index: 2;
   position: absolute;
   top: 575px;
-  right: 314px;
+  right: 375px;
 }
 
 #game-start {
@@ -97,6 +99,7 @@ canvas {
   position: relative;
   bottom: 80px;
   display: flex;
+  right: 60px;
 }
 
 #game-score {
@@ -116,7 +119,7 @@ canvas {
   opacity: 0;
   margin: 0 auto;
   position: absolute;
-  left: 495px;
+  left: 436px;
   top: 268px;
   text-align: center;
   height: 330px;
@@ -133,4 +136,19 @@ canvas {
   font-family: 'Freckle Face', cursive;
   padding: 50px;
   margin-top: 15px;
+}
+
+audio {
+  display: none;
+}
+
+#sound-icon {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 184px;
+}
+
+#sound-icon:hover {
+  cursor: pointer;
 }
