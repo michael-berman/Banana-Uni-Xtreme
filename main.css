@@ -22,24 +22,69 @@ main {
   padding: 50px;
 }
 
-.canvas-container {
+.main-container {
   display: flex;
+  justify-content: space-evenly;
 }
+
+.info-container {
+  background-color: #856320;
+  box-shadow: inset 0 0 10px #000000;
+  height: 500px;
+  width: 300px;
+  text-align: center;
+}
+
+#control-header {
+  color: yellow;
+  font-size: 20px;
+}
+
+.control-list {
+  padding: 0;
+}
+
+.control-list-item {
+  list-style: none;
+  padding: 5px 10px;
+  border: black;
+  border-radius: 5px;
+  margin-bottom: 20px;
+
+}
+
+
 
 canvas {
   border: 1px solid #000000;
   background: url(https://i.imgur.com/DZtdJ6N.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  margin: auto;
   box-shadow: inset 0 0 10px #000000;
+}
+
+.link-container {
+  display: block;
+  padding: 103px 0;
+}
+
+#github-image {
+  height: 100px;
+  width: 100px;
+  margin-bottom: 10px;
+}
+
+#linkedIn-image {
+  height: 100px;
+  width: 100px;
+  margin-bottom: 10px; 
 }
 
 .game-start-container {
   z-index: 2;
   position: absolute;
   top: 593px;
-  left: 384px;
+  right: 234px;
 }
 
 #game-start {
@@ -61,11 +106,13 @@ canvas {
   z-index: 2;
   font-family: 'Freckle Face', cursive;
   font-size: 50px;
+  right: 205px;
+  position: absolute;
 }
 
 .game-over-container {
   width: 40%;
-  z-index: -1;
+  opacity: 0;
   margin: 0 auto;
   position: absolute;
   left: 433px;

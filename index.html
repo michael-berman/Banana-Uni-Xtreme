@@ -14,11 +14,30 @@
 
     <main>
 
-      <div class="canvas-container">
+      <div class="main-container">
+
+        <div class="info-container">
+          <h3 id="control-header">Controls</h3>
+          <ul class="control-list">
+            <li class="control-list-item">Left and right arrow keys to accelerate and deccelerate</li>
+            <li class="control-list-item">Space key to jump</li>
+            <li class="control-list-item">R key to restart when game is over or won</li>
+          </ul>
+        </div>
+
         <canvas id="game-canvas" width="700" height="500">
         </canvas>
+
+        <div class="link-container">
+          <a href="https://github.com/michael-berman/blue-prints" >
+          <img id="github-image" src="./assets/github_image.png">
+        </img><br>
+          <a href="https://www.linkedin.com/in/michaelvberman/" >
+          <img id="linkedIn-image" src="./assets/linkedIn_image.png">
+          </img>
+        </div>
       </div>
-      
+
       <div class="game-scoreboard">
         <h1 id="game-score"></h1>
       </div>
