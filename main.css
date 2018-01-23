@@ -78,6 +78,27 @@ canvas {
   left: 8%;
 }
 
+.game-instructions {
+  z-index: 2;
+  position: absolute;
+  width: 80%;
+  height: auto;
+  top: 5%;
+  left: 10%;
+  background-color: #856320;
+  border-radius: 40px;
+  text-align: center;
+}
+
+#game-instructions-info {
+  font-size: 30px;
+  padding: 30px;
+  color: yellow;
+  font-family: 'Bungee Inline', cursive;
+
+}
+
+
 #game-start {
   color: white;
   font-size: 67px;
