@@ -35,6 +35,7 @@ main {
   width: 200px;
   text-align: center;
   align-self: center;
+  padding: 10px 0;
 }
 
 #control-header {
@@ -90,11 +91,24 @@ canvas {
   text-align: center;
 }
 
+.monkey-pics {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.monkey {
+  /* width: 20%;
+  height: 17%; */
+  width: 150px;
+  height: 150px;
+}
+
 #game-instructions-info {
   font-size: 30px;
   color: yellow;
+  margin-top: 2%;
+  margin-bottom: 0;
   font-family: 'Bungee Inline', cursive;
-
 }
 
 
