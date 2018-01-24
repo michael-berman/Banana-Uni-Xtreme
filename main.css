@@ -15,7 +15,6 @@ header {
   margin: 0 auto;
   margin-top: 80px;
   font-family: 'Bungee Inline', cursive;
-
 }
 
 main {
@@ -56,7 +55,6 @@ main {
   border: black;
   border-radius: 5px;
   font-family: 'Bungee Inline', cursive;
-
 }
 
 #game-container {
@@ -84,7 +82,7 @@ canvas {
   position: absolute;
   width: 80%;
   height: auto;
-  top: 5%;
+  top: 6%;
   left: 10%;
   background-color: #856320;
   border-radius: 40px;
