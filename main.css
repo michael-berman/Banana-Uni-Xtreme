@@ -162,25 +162,13 @@ canvas {
 .link-container {
   display: flex;
   flex-direction: column;
-  padding: 73px 0;
+  justify-content: center;
 }
 
-#github-image {
-  height: 100px;
-  width: 100px;
-  margin-bottom: 10px;
+.fa {
+  color: black;
 }
 
-#linkedIn-image {
-  height: 100px;
-  width: 100px;
-  margin-bottom: 27px;
-}
-
-#portfolio-image {
-  height: 100px;
-  width: 100px;
-}
 
 
 #game-over {
