@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "banana-uni-xtreme",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
