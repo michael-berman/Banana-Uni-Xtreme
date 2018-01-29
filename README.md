@@ -26,7 +26,28 @@ features as well as the logic for the collision detections.
 
 ### Collision Detection
 
-![](https://i.imgur.com/sa9tjcZ.png)
+```javascript
+checkCollisions(){
+  let bikePos = this.unicycle.pos;
+  this.obstacles.coords.forEach( obstacle => {
+    if (this.checkCollision(bikePos, obstacle)){
+      this.currentObstacle = obstacle;
+    }
+  })
+
+  if (this.checkMonkeysCollision()){
+    this.renderGameOver();
+    this.stopGame();
+  }
+
+  if (this.checkFruitBowlCollision()){
+    this.gameWon = true;
+    this.playVictoryTheme();
+  }
+
+}
+```
+
 In order to implement collision detections, there were certain obstacles
 to check for as the unicycle rides through the field. Helper methods were
 utilized to have an organized structure of invoking collision detectors
@@ -34,7 +55,26 @@ for the three main detectors: ramps, monkeys and the fruit bowl.
 
 ### Acceleration and physics of the unicycle
 
-![](https://i.imgur.com/RN3EC3E.png)
+```javascript
+move(timeDelta){
+  if (this.vel[0] == this.maxSpeed){
+    this.offsetX = 0;
+  } else {
+    const velocityScale = timeDelta / NORMAL_FRAME_TIME_DELTA;
+    this.offsetX = this.vel[0] * velocityScale;
+  }
+  let offsetY = this.vel[1] * 5;
+
+
+  if (this.vel[1] < 0 && this.pos[1] < 183 ){
+    this.vel[1] += 0.1;
+  } else if (this.pos[1] < 183){
+    this.vel[1] = 0;
+  }
+
+  this.pos[1] = this.pos[1] + offsetY
+}
+```
 Simulation of the physics features were done by storing the velocity of
 the unicycle, and utilizing that velocity to offset the game screen.
 The velocity was normalized depending on the when the right or left arrow
