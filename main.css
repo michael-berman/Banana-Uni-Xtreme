@@ -17,6 +17,10 @@ header {
   font-family: 'Bungee Inline', cursive;
 }
 
+#input-score{
+  position: absolute;
+}
+
 main {
   padding-top: 30px;
 }
