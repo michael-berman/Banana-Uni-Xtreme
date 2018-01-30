@@ -17,8 +17,40 @@ header {
   font-family: 'Bungee Inline', cursive;
 }
 
-#input-score{
+#submit-score{
+  display: none;
   position: absolute;
+  color: white;
+  font-size: 23px;
+  bottom: 48%;
+  z-index: 4;
+  width: 73%;
+  left: 12%;
+  font-family: 'Bungee Inline', cursive;
+  background: black;
+  padding: 15px;
+  border-radius: 20px;
+}
+
+#submit-score h2 {
+  margin: 9px 5px;
+}
+
+#submit-score-input {
+  border: 0;
+  color: black;
+  left: 42%;
+  position: relative;
+  width: 15%;
+  font-size: 50px;
+  border-radius: 15px;
+  background: grey;
+}
+
+#submit-score-input:focus {
+  border-bottom: solid 1px #969696;
+  box-shadow: none;
+  outline: none;
 }
 
 main {

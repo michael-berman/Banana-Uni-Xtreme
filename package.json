@@ -1,8 +1,7 @@
 {
   "name": "banana_uni_xtreme",
   "version": "1.0.0",
-  "description": "Banana Uni Xtreme is a game that consists of a banana
-  living dangerously in the jungle where hungry monkeys are lurking",
+  "description": "",
   "main": "webpack.config.js",
   "dependencies": {
     "firebase": "^4.9.0"
