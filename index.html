@@ -22,19 +22,16 @@
       <div class="main-container">
 
         <div class="info-container">
-          <h3 id="control-header">Controls</h3>
-          <ul class="control-list">
-            <li class="control-list-item">Right and left arrow keys to accelerate and deccelerate</li>
-            <li class="control-list-item">Space key to jump</li>
-            <li class="control-list-item">r key to restart when game is over or won</li>
-            <li class="control-list-item">p key to pause the game</li>
-            <li class="control-list-item">q key to toggle sound</li>
+          <h3 id="control-header">High Scores</h3>
+          <ul id="high-score-list">
           </ul>
         </div>
+
 
         <div id="game-container">
           <canvas id="game-canvas" width="700" height="500">
           </canvas>
+
 
         <div id="submit-score">
           <h2> Please enter your initials </h2>
@@ -48,7 +45,7 @@
           <div class="game-instructions">
             <p id="game-instructions-info">
               The goal is to avoid the monkeys to get to the fruit bowl as fast as possible!
-              Check the controls to the left.
+              Check the controls to the right.
               Beware of the following two monkeys:
               <div class="monkey-pics">
                 <img class="monkey" src="./assets/ground_monkey.png" ></img>
@@ -70,19 +67,30 @@
 
         </div>
 
-        <div class="link-container">
-          <a target="_blank" href="https://github.com/michael-berman/" >
-            <i class="fa fa-github-square fa-5x" aria-hidden="true"></i>
-          </a><br>
-          <a target="_blank" href="https://www.linkedin.com/in/michaelvberman/" >
-            <i class="fa fa-linkedin-square fa-5x" aria-hidden="true"></i>
-          </a>
-          <a target="_blank" href="http://michaelberman.io/" >
-            <i class="fa fa-globe fa-5x" aria-hidden="true"></i>
-          </a>
+        <div class="info-container">
+          <h3 id="control-header">Controls</h3>
+          <ul class="control-list">
+            <li class="control-list-item">Right and left arrow keys to accelerate and deccelerate</li>
+            <li class="control-list-item">Space key to jump</li>
+            <li class="control-list-item">r key to restart when game is over or won</li>
+            <li class="control-list-item">p key to pause the game</li>
+            <li class="control-list-item">q key to toggle sound</li>
+          </ul>
         </div>
+
       </div>
 
+      <div class="link-container">
+        <a target="_blank" href="https://github.com/michael-berman/" >
+          <i class="fa fa-github-square fa-5x" aria-hidden="true"></i>
+        </a><br>
+        <a target="_blank" href="https://www.linkedin.com/in/michaelvberman/" >
+          <i class="fa fa-linkedin-square fa-5x" aria-hidden="true"></i>
+        </a>
+        <a target="_blank" href="http://michaelberman.io/" >
+          <i class="fa fa-globe fa-5x" aria-hidden="true"></i>
+        </a>
+      </div>
       <audio controls id="audio-theme">
         <source src="./assets/theme1.mp3" type="audio/mpeg">
       </audio>

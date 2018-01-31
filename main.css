@@ -93,6 +93,20 @@ main {
   font-family: 'Bungee Inline', cursive;
 }
 
+#high-score-list {
+  padding: 0;
+  margin: 5px;
+}
+
+.high-score-list-item {
+  padding: 5px 17px 0 5px;
+  border: black;
+  border-radius: 5px;
+  font-family: 'Bungee Inline', cursive;
+  font-size: 19px;
+  list-style: none;
+}
+
 #game-container {
   position: relative;
 }
@@ -197,8 +211,10 @@ canvas {
 
 .link-container {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 40%;
+  margin: 15px auto;
 }
 
 .fa {
