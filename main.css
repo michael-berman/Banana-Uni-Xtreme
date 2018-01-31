@@ -156,8 +156,6 @@ canvas {
 }
 
 .monkey {
-  /* width: 20%;
-  height: 17%; */
   width: 150px;
   height: 150px;
 }
@@ -167,6 +165,8 @@ canvas {
   color: yellow;
   margin-top: 2%;
   margin-bottom: 0;
+  margin-left: 3%;
+  margin-right: 3%;
   font-family: 'Bungee Inline', cursive;
 }
 
