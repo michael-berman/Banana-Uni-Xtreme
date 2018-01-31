@@ -9,26 +9,27 @@
     href="main.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="shortcut icon" href="./assets/banana-favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
   </head>
 
   <body>
 
     <header>
-      <h1 class="game-header">Banana Uni Xtreme</h1>
+      <h1 class="game-header animated fadeInDown">Banana Uni Xtreme</h1>
     </header>
 
     <main>
 
       <div class="main-container">
 
-        <div class="info-container">
+        <div class="info-container animated fadeInLeft">
           <h3 id="control-header">High Scores</h3>
           <ul id="high-score-list">
           </ul>
         </div>
 
 
-        <div id="game-container">
+        <div  class="animated bounceIn" id="game-container">
           <canvas id="game-canvas" width="700" height="500">
           </canvas>
 
@@ -67,7 +68,7 @@
 
         </div>
 
-        <div class="info-container">
+        <div class="info-container animated fadeInRight">
           <h3 id="control-header">Controls</h3>
           <ul class="control-list">
             <li class="control-list-item">Right and left arrow keys to accelerate and deccelerate</li>
@@ -80,7 +81,7 @@
 
       </div>
 
-      <div class="link-container">
+      <div class="link-container animated tada">
         <a target="_blank" href="https://github.com/michael-berman/" >
           <i class="fa fa-github-square fa-5x" aria-hidden="true"></i>
         </a><br>
