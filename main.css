@@ -60,7 +60,6 @@ main {
 .main-container {
   display: flex;
   justify-content: center;
-  margin-right: 85px;
 }
 
 .info-container {
@@ -211,14 +210,13 @@ canvas {
 
 .link-container {
   display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  width: 40%;
+  width: 19%;
   margin: 15px auto;
 }
 
 .fa {
   color: black;
+  margin: 0 10px;
 }
 
 
