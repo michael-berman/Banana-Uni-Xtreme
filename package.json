@@ -4,6 +4,7 @@
   "description": "",
   "main": "webpack.config.js",
   "dependencies": {
+    "animate.css": "^3.5.2",
     "firebase": "^4.9.0"
   },
   "devDependencies": {},
