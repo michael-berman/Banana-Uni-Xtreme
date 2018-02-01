@@ -213,6 +213,7 @@ canvas {
   display: flex;
   width: 19%;
   margin: 15px auto;
+  justify-content: center;
 }
 
 .fa {
