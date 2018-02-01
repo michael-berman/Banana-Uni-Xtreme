@@ -45,6 +45,7 @@ header {
   font-size: 50px;
   border-radius: 15px;
   background: grey;
+  text-transform: uppercase;
 }
 
 #submit-score-input:focus {
