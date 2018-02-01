@@ -39,9 +39,9 @@ header {
 #submit-score-input {
   border: 0;
   color: black;
-  left: 42%;
+  left: 40%;
   position: relative;
-  width: 15%;
+  width: 19%;
   font-size: 50px;
   border-radius: 15px;
   background: grey;
@@ -106,6 +106,10 @@ main {
   font-family: 'Bungee Inline', cursive;
   font-size: 24px;
   list-style: none;
+}
+
+.high-score-list-item:first-child {
+  font-size: 30px;
 }
 
 #game-container {
